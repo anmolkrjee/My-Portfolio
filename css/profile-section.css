@@ -242,10 +242,12 @@
   display: flex;
   position: relative;
   overflow: hidden;
-  width: 3rem;
-  height: 3rem;
   align-items: center;
   justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  min-width: 3rem;
+  min-height: 3rem;
 }
 
 .social-link::before {
@@ -290,6 +292,11 @@
 .social-icon {
   width: 1.5rem;
   height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  font-size: 1.5rem;
 }
 
 /* Tooltip Container */

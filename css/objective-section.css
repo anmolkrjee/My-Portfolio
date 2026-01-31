@@ -49,10 +49,10 @@
 }
 
 .objective-icon {
-  width: 2rem;
-  height: 2rem;
+  font-size: 2rem;
   color: var(--accent-primary);
   transition: all 0.3s ease;
+  line-height: 1;
 }
 
 .objective-title:hover .objective-icon {
