@@ -31,10 +31,10 @@
     animation: fadeInUp 1s ease-out;
 }
 
-.skills-title {
+.skills-headings {
     text-align: center;
-    font-size: 3rem;
-    margin-bottom: 20px;
+    font-size: 54px;
+    margin: 0 auto 20px;
     font-weight: 700;
     color: var(--text-primary);
     background: var(--gradient-primary);
@@ -42,9 +42,11 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     position: relative;
+    line-height: 1.2;
+    display: block;
 }
 
-.skills-title::after {
+.skills-headings::after {
     content: '';
     position: absolute;
     bottom: -10px;
@@ -238,7 +240,7 @@
         padding: 40px 15px;
     }
 
-    .skills-title {
+    .skills-headings {
         font-size: 2.2rem;
     }
 
@@ -269,7 +271,7 @@
 }
 
 @media (max-width: 480px) {
-    .skills-title {
+    .skills-headings {
         font-size: 1.8rem;
     }
 
