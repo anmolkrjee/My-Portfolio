@@ -48,14 +48,14 @@
   margin-bottom: 1rem;
 }
 
-.contact-icon {
+.contact-icons {
   font-size: 2rem;
   color: var(--accent-primary);
   transition: all 0.3s ease;
   line-height: 1;
 }
 
-.contact-title:hover .contact-icon {
+.contact-title:hover .contact-icons {
   transform: scale(1.1) rotate(5deg);
   color: var(--accent-secondary);
 }
